@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="protfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Protfolio</title>
+</head>
+<body>
+    <header class="header" id ="top">
+        
+    <div class="nav-bar">
+        <a href="#" id="logo"><span>H</span>aseeb</a>
+        <ul class="slide">
+            <li class="link-container">
+                <a href="#">Introduction</a>
+                <div class="active-nav"></div>
+            </li>
+            <li class="link-container">
+                <a href="#skill">Skills</a>
+            </li>
+            <li class="link-container">
+                <a href="#">Education</a>
+            </li>
+            <li class="link-container">
+                <a href="#">About</a>
+            </li>
+        </ul>
+    </div>
+</header>
+<section class="home">
+    <div class="home-content">
+        <h1>I'm <span>H</span>aseeb <span>A</span>hmed</h1>
+        <h3>Frontend Developer</h3>
+        <p>I am a dedicated Software Engineer currently pursuing my undergraduate studies at FAST-NUCES. 
+            My academic journey has been marked by a relentless pursuit of excellence in the field of computer science,
+             and I am resolutely committed to further enhancing my skill set.
+        </p>
+             <div class="btn-cv">
+                <a href="#" download="resume.pdf">Download CV!</a>
+                <a href="https://www.linkedin.com/in/haseeb-ahmed-17509a27b/" target="_blank">Let's Talk</a>
+             </div>
+    </div>
+    <div class="my-pic">
+        <img src="my_image.jpg" alt="My Personal image">
+    </div>
+</section>
+<section class="skills">
+    <div id="skill">
+        <p>Let <span>Our Skills</span> Speak For Us</p>
+        <div class="label-box">
+            <div class="label">HTML</div>
+            <div class="precentage">80%</div>
+        </div>
+        <div class="progress-bg">
+            <div class="progress" style="max-width: 80%;"></div>
+        </div>
+        <div class="label-box">
+            <div class="label">CSS</div>
+            <div class="precentage">60%</div>
+        </div>
+        <div class="progress-bg">
+            <div class="progress"style="max-width: 60%;"></div>
+        </div>
+        <div class="label-box">
+            <div class="label">JavaScript</div>
+            <div class="precentage">65%</div>
+        </div>
+        <div class="progress-bg">
+            <div class="progress"style="max-width: 65%;"></div>
+        </div>
+        <div class="label-box">
+            <div class="label">Java</div>
+            <div class="precentage">75%</div>
+        </div>
+        <div class="progress-bg">
+            <div class="progress"style="max-width: 75%;"></div>
+        </div>
+        <div class="label-box">
+            <div class="label">C++</div>
+            <div class="precentage">85%</div>
+        </div>
+        <div class="progress-bg">
+            <div class="progress"style="max-width: 85%;"></div>
+        </div>
+    </div>
+</section>
+<section class="education">
+    <div class="border">
+    <h2>My Education</h2>
+<section class="edu">
+    
+    <div class ="card">
+        <h1>School</h1>
+        <p>I have successfully completed my matriculation in the field of computer science at DJPS. 
+            This educational milestone has laid the groundwork for my academic journey and ignited my passion for the field of technology and computer-related disciplines.
+        </p>
+    </div>
+    <div class ="card">
+        <h1>College</h1>
+        <p>I am pleased to inform you that I have completed my Pre-Engineering program at Superior College with an exemplary academic performance. 
+        This educational endeavor has been a significant chapter in my academic journey, providing me with a strong foundation in the field of engineering and mathematics.
+        </p>
+    </div>
+    <div class ="card">
+        <h1>University</h1>
+        <p>I am currently enrolled as a Software Engineering student at FAST-NUCES.
+             This academic pursuit represents a significant phase in my educational and professional development, 
+            as I am actively engaged in honing my skills and knowledge in the dynamic field of software engineering.
+        </p>
+    </div>
+    <div class ="card">
+        <h1>Extra</h1>
+        <p>During my free time, I am dedicated to personal skills development and actively seek opportunities to enhance my professional growth.
+         I firmly believe that continuous learning and self-improvement are integral to achieving success in the software engineering field and beyond.
+        </p>
+    </div>
+</section>
+</div>
+</section>
+
+<section class="contact-us">
+    <div class="head"> Let's  <span> Connect</span></div>
+    <div class="info">
+        <div class="info-box">
+            <h3>My <span>Info</span></h3>
+            <ul>
+            <li>
+            <i class="fa fa-envelope"></i></li>
+            <li>
+            <p>haseebahmed6621@gmail.com</p></li>
+        </ul>
+        <ul>
+            <li>
+            <i class="fa fa-phone"></i></li>
+            <li>
+            <p>+923486621901</p></li>
+        </ul>
+        <h3><span>Contact</span> with us</h3>
+        <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/haseeb-ahmed-17509a27b/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://instagram.com/_haseeb_.x?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100080411240629" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        </ul>
+        <p>We would love to hear from you!.</p>
+        </div>
+        <div class="info-box">
+            <h3>Send us a <span>Message</span></h3>
+            <p>Name</p>
+            <input type="text" class="clear" required>
+            <p>Email</p>
+            <input type="text" class="clear" required>
+            <p>Message</p>
+            <textarea id="myTextarea" rows="5" cols="40"></textarea>
+            <button onclick="clean()">Submit</button>
+        </div>
+    </div>
+</section>
+<a href="#top" class="to-top" id ="change">
+    <i class="fa fa-arrow-up"></i>
+</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Flip.min.js" integrity="sha512-AWDq5V1aZW5392Wm63Y2qUKK5MuksXgQVx4YMx5LqLOk4Tnzu2aSNyd/Uqwil/kIm9pikPDk6B626B7H3vq1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="protfolio.js"></script>
+</body>
+</html>
